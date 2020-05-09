@@ -1,0 +1,29 @@
+{
+  "name": "sequelizedburger",
+  "version": "1.0.0",
+  "description": "This is a restaurant app, burger logger with MySQL, Node, Express, Handlebars and homemade ORM.\r Lets users input the names of any kind of burgers they'd like to eat.\r The Burger the user inputs will display on the left side of the page in the waiting area. Each burger will have a \"Devour It!\" button waiting to be devoured. When the user clicks is, the burger will move to the right side of the page.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skip1113/sequelizeBurger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skip1113/sequelizeBurger/issues"
+  },
+  "homepage": "https://github.com/skip1113/sequelizeBurger#readme"
+}
