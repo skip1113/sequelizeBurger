@@ -4,7 +4,7 @@
   "description": "This is a restaurant app, burger logger with MySQL, Node, Express, Handlebars and homemade ORM.\r Lets users input the names of any kind of burgers they'd like to eat.\r The Burger the user inputs will display on the left side of the page in the waiting area. Each burger will have a \"Devour It!\" button waiting to be devoured. When the user clicks is, the burger will move to the right side of the page.",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^4.0.4",
     "mysql": "^2.18.1",
     "mysql2": "^2.1.0",
